@@ -1,0 +1,45 @@
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+.streamlit/secrets.toml
+.streamlit/secrets.*.toml
+
+# Logs and user data. Only the reviewed public example is allowed in Git.
+logs/
+*.log
+data/*
+*.csv
+*.parquet
+*.xlsx
+*.xls
+*.xlsm
+*.jsonl
+*.db
+*.sqlite
+*.sqlite3
+!data/sample_sales.csv
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
